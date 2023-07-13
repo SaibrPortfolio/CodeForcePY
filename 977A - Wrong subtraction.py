@@ -2,7 +2,6 @@
 n, k = map(int, input().split())
 
 # n, k = 512 4
-
 # if the the last digit is non-zero, do -1 until it is
 # should be 510 and k = 2
 # if the last digit is zero, divide by ten 

@@ -11,10 +11,8 @@
 #     - k = cost of first banana
 #     - n = money of the soldier
 #     - w - number of bananas he wants
-
 # - get the costs
 #     - costs = 1*k + 2*k + ... w*k
-
 # - borrowed = costs - n
 # - if borrowed < 0 -> borrow = 0 
 

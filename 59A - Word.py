@@ -5,6 +5,7 @@
 # if lower>upper print the whole string in upper and vice versa
 # if the amount are the same for both we print in lower (else)
 
+
 x = input()
 
 upper_counter = 0

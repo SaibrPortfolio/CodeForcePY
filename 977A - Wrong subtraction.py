@@ -18,5 +18,4 @@ while (k >= 1):
         k -= 1
     else:
         pass
-
 print(n)

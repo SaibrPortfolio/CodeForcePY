@@ -1,6 +1,25 @@
-# the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.
+# read input
+# init counter
+# go through string and count the 4s and 7s
 
-# if "4" or "7" -> nearly lucky 
+# go through the counter and check if every digit is a 4 or 7
+# if every digit is a 4 or 7 -> "YES" otherwise "NO"
 
-# I am assuming from the first sample that if len(NearlyLuckyNumbers) > len(NonLuckyNumbers) then it is "YES" 
+n = input()
 
+count = 0
+
+for num in n:
+    if num == "4" or num == "7":
+        count += 1
+
+counter = 0
+
+for num in str(count):
+    if num == "4" or num == "7":
+        counter += 1
+
+if counter == len(str(count)):
+    print("YES")
+else:
+    print("NO")

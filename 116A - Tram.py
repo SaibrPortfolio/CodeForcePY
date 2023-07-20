@@ -31,7 +31,6 @@ max_number = 0
 person_counter = 0
 array = []
 
-
 for stops in range(1, n + 1):
     passengers = list(map(int, input().split()))
     array.append(passengers)

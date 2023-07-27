@@ -9,12 +9,20 @@
 
 #n, t = map(int, input().split())
 
-s = "BGGBG"
+n, t = map(int, input().split())
+
+s = input()
 new = list(s)
 
-for i, char in enumerate(new):
-    if char == "B":
-        char = "G"
-        
+for _ in range(t):
+    i = 0
+    while i < len(new) - 1:
+        if new[i] == "B" and new[i + 1] == "G":
+            new[i], new[i + 1] = new[i + 1], new[i]  # Swapping
+            i += 2  # Skip next character since we know it's 'B' after swap
+        else:
+            i += 1  # If no swap, just proceed to next character
 
+s = "".join(new)
+print(s)
 

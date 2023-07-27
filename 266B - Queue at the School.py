@@ -15,5 +15,6 @@ new = list(s)
 for i, char in enumerate(new):
     if char == "B":
         char = "G"
+        
 
 
